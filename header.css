@@ -2,11 +2,37 @@ header {
     width: 100%;
     background-color: #5aba8d;
     padding: 20px;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     color: #fff;
     font-size: 3em;
     text-align: center;
-    cursor: pointer;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav a {
+    
+    margin-right: 0.3em;
+    font-size: 2.5em;
+}
+
+header a, span {
+    font-size: 1.3em;
+    margin-left: 1.3em;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+header a:hover {
+    color: #333;
 }
