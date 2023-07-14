@@ -1,0 +1,56 @@
+@media (max-width: 1200px) {
+    main {
+width: 100%;
+
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+margin-bottom: 15%
+
+}
+
+.main-contant {
+    width: 100%;
+    align-items: center;
+
+    margin-bottom: 15%;
+}
+
+main .tex  {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    font-size: 0.9em;
+}
+
+main .text p {
+    margin-top: 32px;
+
+}
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    header nav {
+        margin-top: 24px;
+    }
+
+    header nav a {
+        font-size: 1em;
+    }
+
+}
